@@ -2,6 +2,14 @@
 
 使用 MySQL InnoDB 引擎
 
+-------
+
+## Python 脚本方式示例
+https://github.com/taojy123/IsolationLab/blob/master/isolation_lab.py
+
+
+## Django 方式示例
+
 每一次实验前可以通过 http://127.0.0.1:8000/reset 重置一下张三的余额为 0
 
 ## 1 不使用事务隔离，会产生 “更新丢失” 问题。
